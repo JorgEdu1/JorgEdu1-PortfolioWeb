@@ -36,5 +36,6 @@ module.exports = {
       },
     },
   },
-  plugins: ['tailwindcss-animate'],
+  // eslint-disable-next-line global-require, @typescript-eslint/no-require-imports
+  plugins: [require('tailwindcss-animate')],
 }
